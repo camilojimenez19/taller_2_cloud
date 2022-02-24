@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/projects_camilo/Universidad/Cloud/configData
+  security:
+    user:
+      name: admin
+      password: admin
+server:
+  port: 7010
